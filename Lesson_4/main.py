@@ -1,8 +1,9 @@
 from berserk import Berserk
+from samurai import Samurai
 from Lesson_3.character import Character
 
 player1 = Berserk(name='Кратос', damage=10)
-player2 = Character(name='Тор', damage=15)
+player2 = Samurai(name='Тор', damage=10)
 
 print(f'{player1}\n')
 print(f'{player2}\n')
